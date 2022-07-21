@@ -1,4 +1,4 @@
-git_url("git@github.com:Douglas-euzinho/TodoList-certificates.git")
+git_url("https://github.com/Douglas-euzinho/TodoList.git")
 
 storage_mode("git")
 
