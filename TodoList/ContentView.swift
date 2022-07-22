@@ -14,6 +14,7 @@ import CoreData
 struct ContentView: View {
     @State var items = PersistenceController.shared.fetchFoods()
     var body: some View {
+        
         VStack {
             Text("Lista")
             NavigationView {
