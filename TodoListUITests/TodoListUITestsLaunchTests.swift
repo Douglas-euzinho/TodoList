@@ -2,7 +2,7 @@
 //  TodoListUITestsLaunchTests.swift
 //  TodoListUITests
 //
-//  Created by Victor Brito on 18/07/22.
+//  Created by Douglas Figueirôa on 18/07/22.
 //
 
 import XCTest
