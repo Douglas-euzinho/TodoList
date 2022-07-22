@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36396FA0288B0F7500152C7A /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36396F9E288B0F7500152C7A /* Food+CoreDataClass.swift */; };
+		36396FA1288B0F7500152C7A /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36396F9F288B0F7500152C7A /* Food+CoreDataProperties.swift */; };
 		CDC2643F2885CD8800C76440 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2643E2885CD8800C76440 /* TodoListApp.swift */; };
 		CDC264412885CD8800C76440 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC264402885CD8800C76440 /* ContentView.swift */; };
 		CDC264432885CD8B00C76440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC264422885CD8B00C76440 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36396F9E288B0F7500152C7A /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataClass.swift"; sourceTree = "<group>"; };
+		36396F9F288B0F7500152C7A /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CDC2643B2885CD8800C76440 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC2643E2885CD8800C76440 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		CDC264402885CD8800C76440 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 		CDC264322885CD8800C76440 = {
 			isa = PBXGroup;
 			children = (
+				36396F9E288B0F7500152C7A /* Food+CoreDataClass.swift */,
+				36396F9F288B0F7500152C7A /* Food+CoreDataProperties.swift */,
 				CDC2643D2885CD8800C76440 /* TodoList */,
 				CDC264532885CD8B00C76440 /* TodoListTests */,
 				CDC2645D2885CD8B00C76440 /* TodoListUITests */,
@@ -263,10 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36396FA0288B0F7500152C7A /* Food+CoreDataClass.swift in Sources */,
 				CDC264482885CD8B00C76440 /* Persistence.swift in Sources */,
 				CDC264412885CD8800C76440 /* ContentView.swift in Sources */,
 				CDC2643F2885CD8800C76440 /* TodoListApp.swift in Sources */,
 				CDC2644B2885CD8B00C76440 /* TodoList.xcdatamodeld in Sources */,
+				36396FA1288B0F7500152C7A /* Food+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -488,13 +496,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9HBFB9D4T4;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorbrito.TodoListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoList.app/TodoList";
 			};
 			name = Debug;
@@ -508,13 +516,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9HBFB9D4T4;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorbrito.TodoListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoList.app/TodoList";
 			};
 			name = Release;
@@ -532,7 +540,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = TodoList;
 			};
 			name = Debug;
@@ -550,7 +558,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = TodoList;
 			};
 			name = Release;

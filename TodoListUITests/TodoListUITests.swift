@@ -8,6 +8,8 @@
 import XCTest
 
 class TodoListUITests: XCTestCase {
+    
+    let app = XCUIApplication()
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -38,4 +40,12 @@ class TodoListUITests: XCTestCase {
             }
         }
     }
+    
+    func testIfTextExist() {
+        app.launch()
+
+        let comida = app.staticTexts["Lista"]
+        XCTAssertEqual("Lista", comida.label)
+    }
 }
+
